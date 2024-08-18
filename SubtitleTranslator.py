@@ -3,6 +3,7 @@
 firstFile = r"Files\[ENG]Gaki no Tsukai - No-Laughing Onsen Yugawara (2004) [bluray remux].ass"
 secondFile = r" Files\[PT-BR]Gaki no Tsukai - No-Laughing Onsen Yugawara (2004).ass"
 
+
 with open("outputFile", "w", encoding="UTF8") as output:
     with open(firstFile, "r", encoding="UTF8") as file, open(secondFile, "r", encoding="UTF8") as secondFile:
         print_mod = False
